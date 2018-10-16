@@ -1,0 +1,9 @@
+platform :ios, ’9.0’
+project '../MVPLib.xcodeproj'
+
+target 'MVPLib' do
+
+use_frameworks!
+pod 'Swinject'
+
+end
